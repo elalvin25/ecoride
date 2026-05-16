@@ -6,9 +6,9 @@ import numpy as np
 import os
 
 # Define the path to the models
-MODEL_DIR = '/content/drive/MyDrive/ecoride/'
+MODEL_DIR = './'
 PIPELINE_PATH = os.path.join(MODEL_DIR, 'pipeline_preproc.pkl')
-MODEL_PATH = os.path.join(MODEL_DIR, 'modelo_churn.pkl')
+MODEL_PATH = os.path.join('./', 'modelo_churn.pkl')
 
 # Load the pipeline and model
 @st.cache_resource
